@@ -16,3 +16,5 @@ Before runnig the code please enter the appropriate values in config.json file.
     "password":"Password for email address mentioned above"
     "receiptNum":"USCIS Receipt number"
     "maillist":["Email IDs to which you want to notify (seperated by comma(,))"] 
+
+PS: Please check Send-With-AWS-SES branch if you are planning to use AWS SES in stead of Gmail
