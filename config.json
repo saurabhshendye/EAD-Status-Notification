@@ -1,6 +1,5 @@
 {
-    "username":"Email ID from which you want send emails",
-    "password":"Password for email address mentioned above",
-    "receiptNum":"USCIS Receipt number",
-    "maillist":["Your Email IDs to which you want to notify"]  
+    "username":"Sender email address",
+    "receiptNum":"USCIS Receipt Number",
+    "maillist":["Receiver Email Address"]  
 }
