@@ -1,7 +1,7 @@
 # EAD-Status-Notification
 As the name suggest, this project is to help track the status of the EAD (Work Permit status). 
 
-I have use two packages
+I have used two packages
 
 1. nodemailer
 2. req-uscis-status
@@ -15,6 +15,6 @@ Before runnig the code please enter the appropriate values in config.json file.
     "username":"Email ID from which you want send emails"
     "password":"Password for email address mentioned above"
     "receiptNum":"USCIS Receipt number"
-    "maillist":["Email IDs to which you want to notify (seperated by comma(,))"] 
+    "maillist":["Email IDs to notify (separated by comma(,))"] 
 
 PS: Please check Send-With-AWS-SES branch if you are planning to use AWS SES in stead of Gmail
